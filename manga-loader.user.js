@@ -28,7 +28,7 @@
 // @match *://manga-joy.com/*/*
 // @match *://*.dm5.com/m*
 // @match *://*.senmanga.com/*/*
-// @match *://www.japscan.com/lecture-en-ligne/*
+// @match *://www.japscan.cc/lecture-en-ligne/*
 // @match *://www.pecintakomik.com/manga/*/*
 // @match *://mangawall.com/manga/*/*
 // @match *://manga.animea.net/*
@@ -423,7 +423,7 @@ var implementations = [{
   }
 }, {
   name: 'japscan',
-  match: "^https?://www\\.japscan\\.com/lecture-en-ligne/[^/]*/[0-9]*",
+  match: "^https?://www\\.japscan\\.cc/lecture-en-ligne/[^/]*/[0-9]*",
   img: '#image',
   next: '#img_link',
   numpages: '#pages',
